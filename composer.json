@@ -1,0 +1,17 @@
+{
+    "name": "davide/nuovo",
+    "autoload": {
+        "psr-4": {
+            "Davide\\Nuovo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Davide",
+            "email": "cupri.davide@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
