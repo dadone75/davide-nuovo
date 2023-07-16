@@ -11,8 +11,11 @@
 <div class="card" >
   <div class="card-body">
 
-
-<a href='login'><input type='button' value='entra'></a>
+<table>
+<tr><td><a href='utenti'><input type='button' class="btn btn-success" value='Array' style=width:200px;'></a></td></tr>
+<tr><td><a href='#'><input type='button' class="btn btn-success" value='Classi' style=width:200px;' disabled></a></td></tr>
+<tr><td><a href='login'><input type='button' class="btn btn-success" value='SQL' style=width:200px;'></a></td></tr>
+</table>
 
 </div>
   </div>

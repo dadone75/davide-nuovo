@@ -5,8 +5,11 @@ namespace Davide\Nuovo\Controllers;
 
 use Davide\Nuovo\Services\Mysql;
 use Davide\Nuovo\Services\Render;
+use Davide\Nuovo\Controllers\Utenti;
 
 class Controllers{
+
+  
 
 
     public static function home(array $request):void{
@@ -54,7 +57,6 @@ class Controllers{
     
     public static function cerca(){
 
-      
         $db = new Mysql();
 
         if(isset($_SESSION["username"])===true){
@@ -66,11 +68,12 @@ class Controllers{
         }
 
 
-
     }
 
 
 }
+
+
 
 
 ?>
