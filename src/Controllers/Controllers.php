@@ -46,8 +46,8 @@ class Controllers{
         
         }else{
 
-            self::login_error($request);
-
+           // self::login_error($request);
+           header("Location: ".$_ENV['BASE_URL']."/login?username=".$request["username"]);
         }
     }
  

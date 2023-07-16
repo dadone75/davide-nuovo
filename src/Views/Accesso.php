@@ -9,11 +9,9 @@
   crossorigin="anonymous"></script>
 
   <script>
-    
 
 
 function js_listaUtenti(){
-
 
 $.ajax({
 
